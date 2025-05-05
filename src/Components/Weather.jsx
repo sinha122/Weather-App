@@ -14,4 +14,4 @@ function Weather({ data }) {
   );
 }
 
-export default Weather; // ✅ THIS IS CRUCIAL
+export default Weather; 
