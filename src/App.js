@@ -8,6 +8,7 @@ function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState('');
 
+  //fetched api
   const fetchWeather = async () => {
     try {
       const response = await fetch(

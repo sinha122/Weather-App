@@ -1,5 +1,3 @@
-// src/Components/Weather.jsx
-
 import React from 'react';
 
 function Weather({ data }) {
@@ -10,6 +8,7 @@ function Weather({ data }) {
       <p>Temperature: {data.main.temp}°C</p>
       <p>Humidity: {data.main.humidity}%</p>
       <p>Wind: {data.wind.speed} m/s</p>
+      <p>Rain: {data.main.rain}%</p>
     </div>
   );
 }
